@@ -1,0 +1,23 @@
+{
+  "name": "sd-webui-api-sdk",
+  "version": "0.0.1",
+  "description": "For more information, see https://github.com/joindn/sd-webui-api-sdk",
+  "main": "dist/index.js",
+  "files": ["dist"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joindn/sd-webui-api-sdk.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.1.3"
+  }
+}
